@@ -1,0 +1,42 @@
+{
+  "name": "avata-coding-challenge",
+  "version": "1.0.0",
+  "description": "Avata Coding Challenge",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "react": "^16.8.3",
+    "react-autocomplete": "^1.8.1",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "react-select": "^2.4.1",
+    "serve": "^10.1.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prod": "node server.js",
+    "prod2": "serve -s build",
+    "heroku-postbuild": "react-scripts build && node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "engines": {
+    "node": "10.x"
+  }
+}

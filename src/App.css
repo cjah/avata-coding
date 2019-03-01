@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  min-width: 420px;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+ol {
+  padding-inline-start: 0px;
+}
+
+li {
+  padding: 40px;
+}
+
+p {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 20px;
+  background: linear-gradient(rgba(27,188,194,1) 0%, rgba(24,163,168,1) 100%);
+  color: white;
+  padding: 15px 25px;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0.21);
+  border-bottom-color: rgba(0,0,0,0.34);
+  text-shadow:0 1px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset,
+                    0 2px 0 -1px rgba(0,0,0,0.13),
+                    0 3px 0 -1px rgba(0,0,0,0.08),
+                    0 3px 13px -1px rgba(0,0,0,0.21);
+}
+
+.btn:active {
+    top: 1px;
+    border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.89),0 1px rgba(0,0,0,0.05) inset;
+    position: relative;
+}
