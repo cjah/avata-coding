@@ -25,7 +25,6 @@
     "eject": "react-scripts eject",
     "prod": "node server.js",
     "prod2": "serve -s build",
-    "heroku-postbuild": "react-scripts build && node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
